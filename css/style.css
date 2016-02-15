@@ -295,7 +295,7 @@ _______________________________________________________________*/
 
 #skills {
 	padding: 100px 50px;
-	background-color: #f5f5f5;
+	background-color: #00C756;
 	background-size: 100%;
 	position: relative;
 }
@@ -400,12 +400,11 @@ _______________________________________________________________*/
 
 /* 07 CONTACT SETTINGS
 --------------------------------------------------------------- */
-
 #contact { 
 	padding: 100px 50px;
 	position: relative;
-	background: url('../images/palmpatterncopy.png') no-repeat center center;
-	background-color: #f5f5f5; 
+/*	background: url('../images/palmpatterngrey.png') no-repeat center center;*/
+	background-color: #00C756; 
 	background-size: 100%;
  }
 
@@ -587,7 +586,7 @@ footer p {
 
 	#contact {
 	background: none;
-	background-color: #f5f5f5;
+	background-color: #00C756;
 
 }
 
