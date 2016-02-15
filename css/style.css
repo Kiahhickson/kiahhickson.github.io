@@ -292,8 +292,8 @@ nav ul li:hover {
 
 /*SKILLS SETTINGS 
 _______________________________________________________________*/
-#skills {
 
+#skills {
 	padding: 100px 50px;
 	background-color: #f5f5f5;
 	background-size: 100%;
@@ -314,7 +314,9 @@ _______________________________________________________________*/
 }
  .skills span img {
 	width: 100px;
+	
  }
+
 
 /* 06 PORTFOLIO SETTINGS
 --------------------------------------------------------------- */
@@ -474,7 +476,7 @@ _______________________________________________________________*/
 --------------------------------------------------------------- */
 
 footer {
-	background: #f5f5f5;
+	/*background: #f5f5f5;*/
 
 }
 
@@ -613,10 +615,10 @@ footer p {
 	}
 }
 
-@media (min-height: 300px) {
+@media (max-height: 300px) {
 
 	#welcome {
-		background-size: contain;
+		background-size: cover;
 		height: 200px;
 		
 	}
