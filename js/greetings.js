@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var quotes = ['Hello', 'Shalom', 'Ni Hao', 'Namaste', 'Hallo'];
+    var quotes = ['Hello', 'Shalom', 'Ni Hao 你好', 'Namaste', 'Hallo', ];
 
     var $quotes = $(".quotes");
     var quoteIndex = 0;

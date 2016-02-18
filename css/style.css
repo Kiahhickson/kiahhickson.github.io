@@ -135,6 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 24px;
 	text-transform: uppercase;
 	letter-spacing: 6px;
+	display: inline-flex;
 }
 
 .section_subtitle {
@@ -317,6 +318,18 @@ _______________________________________________________________*/
 	
  }
 
+[class^=devicon-] {
+    font-family: devicon;
+    font-size: 100px;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 /* 06 PORTFOLIO SETTINGS
 --------------------------------------------------------------- */
@@ -491,7 +504,7 @@ footer p {
 	line-height: 1;
 }
 
-.left, .right {	width: 50%;}
+.left, .right, .middle {	width: 50%;}
 
 .left {
 	float: left;
@@ -598,7 +611,7 @@ footer p {
 	}
 
 	.container_footer { padding: 30px 25px; }
-	.left, .right {
+	.left, .right, {
 		width: 100%;
 		text-align: center;
 	}
